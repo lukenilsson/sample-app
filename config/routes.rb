@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  get "hello_path", controller: "example_one", action: "example_one"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get "goodbye_path", controller: "example_one", action: "example_two"
+
+  # get "whatsup_path", controller: "example_three", action: "example_three"
 end

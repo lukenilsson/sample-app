@@ -1,0 +1,3 @@
+class ExampleThreeController < ApplicationController
+  
+end
